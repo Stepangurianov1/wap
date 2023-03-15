@@ -16,7 +16,7 @@ class Main():
         self.time = 0
         self.time_sleep = 5  # задержка, чтобы пользователь успел ввести капчу, если она необходима
         self.csv_file = 'data.csv'
-        self.path_to_driver = 'C:/Users/User/Documents/тесты работа/wap/chromedriver.exe'  # не заубдьте
+        self.path_to_driver = 'C:/Users/User/Documents/тесты работа/Карта сайта/chromedriver.exe'  # не заубдьте
         # заменить при запуске программы
         self.driver = webdriver.Chrome(executable_path=self.path_to_driver)
 
@@ -56,7 +56,6 @@ class Main():
         with open(self.csv_file, mode='a', encoding='utf-8') as file:
             self.get_link()
             writer = csv.writer(file)
-            writer.writerow(['URL сайта', 'Время обработки', 'Количество наденных ссылок', 'Имя файла с результатом'])
             writer.writerow([self.url, self.time, self.count, self.csv_file])
 
     @classmethod
@@ -85,7 +84,9 @@ class Main():
 
 if __name__ == '__main__':
     web = iter(['http://crawler-test.com/', 'http://google.com/', 'https://vk.com', 'https://yandex.ru', 'https'
-                                                                                                    '://stackoverflow.com'])
-
+                                                                                               '://stackoverflow.com'])
+    with open('data.csv', mode='w', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['URL сайта', 'Время обработки', 'Количество наденных ссылок', 'Имя файла с результатом'])
     with Pool(8) as p:
         p.map(Main.run_write_csv, web)

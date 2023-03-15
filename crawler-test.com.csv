@@ -188,7 +188,7 @@ Duplicate Page,/urls/duplicate_page
 Duplicate Page,/urls/duplicate_page/foo
 Duplicate Page,/urls/duplicate_page/bar
 Duplicate Page,/urls/duplicate_page/baz
-Url With Session Id,/urls/with_session_id?sessionID=l3JPp3bQhrmzOy5KVZIO
+Url With Session Id,/urls/with_session_id?sessionID=PYVLLvn61yxRG8u4hGOF
 Page URL Length,/urls/page_url_length_n
 URL With Fragment,/urls/url_with_fragment#fragment
 URL with encoded reserved character,/url/URL%2c_with_encoded_reserved_character
@@ -396,7 +396,7 @@ Crawler IP Address,/other/crawler_ip_address
 Conflicting Language Tags,/other/conflicting_language_tags
 Page Load Time,/other/page_load_time_n
 Crawler Request Headers,/other/crawler_request_headers
-Expiring Page for Removed Test,/other/expiring_page_for_removed_test/1678877488.6242247
+Expiring Page for Removed Test,/other/expiring_page_for_removed_test/1678878022.105083
 Duplicated Body Content 1,/other/duplicated_body_content_1
 Duplicated Body Content 2,/other/duplicated_body_content_2
 String Width in Pixels,/other/string_width/512/string

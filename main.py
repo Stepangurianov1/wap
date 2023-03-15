@@ -51,7 +51,7 @@ class Main():
             for link in links:
                 string = link.string
                 href = link.get('href')
-                if string and href:
+                if string and href and href != '#':
                     self.count += 1
                     writer_file.writerow([string, href])
 
@@ -66,7 +66,7 @@ class Main():
         with open(self.csv_file, mode='a', encoding='utf-8') as file:
             self.get_link()
             writer = csv.writer(file)
-            writer.writerow([self.url, self.time, self.count, self.file_name])
+            writer.writerow([self.url, self.time, self.count, f'{self.file_name}.csv'])
 
     @classmethod
     def run_write_csv(cls, arg):  # Функция создает экзмепляр класса и вызывает метод для записи в csv, необходима

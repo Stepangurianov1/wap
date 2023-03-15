@@ -1,0 +1,417 @@
+Тело ссылки,Ссылка
+Separate Desktop page with separate mobile and/or AMP,/mobile/separate_desktop
+Separate Desktop page with AMP page as AMP and Mobile,/mobile/desktop_with_AMP_as_mobile
+Separate Desktop with different H1,/mobile/separate_desktop_with_different_h1
+Separate Desktop with different title,/mobile/separate_desktop_with_different_title
+Separate Desktop with different wordcount,/mobile/separate_desktop_with_different_wordcount
+Separate Desktop with different links in,/mobile/separate_desktop_with_different_links_in
+Separate Desktop with different links out,/mobile/separate_desktop_with_different_links_out
+Separate Desktop which links to a mobile page not on the mobile subdomain,/mobile/separate_desktop_with_mobile_not_subdomain
+Separate Desktop with mobile and AMP which self canonicalises,/mobile/desktop_with_self_canonical_mobile_and_amp
+Separate Mobile page not on the mobile subdomain,/mobile/separate_mobile_with_mobile_not_subdomain
+A dynamically served page,/mobile/dynamic
+A responsive page,/mobile/responsive
+No mobile configuration,/mobile/no_mobile_configuration
+Other desktop page linking to the same mobile pages as other desktop,/mobile/other_desktop_that_links_to_the_same_mobile_pages
+An AMP page which also has a dedicated mobile page,/mobile/amp_with_separate_mobile
+Responsive with AMP,/mobile/responsive_with_amp
+AMP for responsive Page,/mobile/amp_with_responsive
+No mobile configuration with AMP,/mobile/no_mobile_with_amp
+AMP for no mobile configuration,/mobile/amp_with_no_mobile
+"An AMP page with no canonical (or self-ref, and no inbound AMP links",/mobile/amp_no_references
+AMP page as mobile self-referential,/mobile/amp_as_desktop_amp_and_mobile
+AMP page which self canonicalises,/mobile/separate_amp_with_self_canonical
+Separate Desktop with Meta Irregular Media Pixel Size,/mobile/separate_desktop_irregular_media
+Separate Desktop with Response Header Alt,/mobile/separate_desktop_response_header_alt
+Description Tag With Whitespace,/description_tags/description_with_whitespace
+Description Tag Missing,/description_tags/missing_description
+Description Tag Missing With Meta Nosnippet,/description_tags/no_description_nosnippet
+Description Tag Duplicate,/description_tags/duplicate_description
+Description Tag Duplicate,/description_tags/duplicate_description/foo
+Noindex and Description Tag Duplicate,/description_tags/duplicate_description_and_noindex
+Noindex and Description Tag Duplicate,/description_tags/duplicate_description_and_noindex/foo
+Description Tag Too Long,/description_tags/description_over_max
+Short Meta Description,/description_tags/short_meta_description
+HTTP-equiv description,/description_tags/description_http_equiv
+Page Titles Character Encoded,/encoding/page_titles_character_encoded
+URL with Foreign Characters - Hebrew,/encoding/url_with_foreign_characters/בלהבלה
+URL with Foreign Characters - Japanese,/encoding/url_with_foreign_characters/すべての単語が高校程度の辞書に載っている
+URL with Foreign Characters - Polish,/encoding/url_with_foreign_characters/pchnąć-w-tę-łódź-jeża-lub-ośm-skrzyń-fig
+URL with Foreign Characters - Cyrilic,/encoding/url_with_foreign_characters/Шеф-взъярён-тчк-щипцы-с-эхом-гудбай-Жюль
+URL with Foreign Characters - German,/encoding/url_with_foreign_characters/Zwölf-große-Boxkämpfer-jagen-Viktor-quer-über-den-Sylter-Deich
+URL with Foreign Characters - Spanish,/encoding/url_with_foreign_characters/Fabio-me-exige-sin-tapujos-que-añada-cerveza-al-whisky
+URL with Foreign Characters - Arab,/encoding/url_with_foreign_characters/﴿محمد-رسول-الله-والذين-معه-أشداء
+URL with Foreign Characters - Greek,/encoding/url_with_foreign_characters/γράμματα-του-ισπανικού-αλφαβήτου-καθώς
+URL with Foreign Characters - Nordic,/encoding/url_with_foreign_characters/asød-æada-ådjghf-gägfd-asödsads
+Double Encoded URL - German,/encoding/double_encoded_url/Zw%25C3%25B6lf-gro%25C3%259Fe-Boxk%25C3%25A4mpfer-jagen-Viktor-quer-%25C3%25BCber-den-Sylter-Deich
+Inconsistent Character Encoding,/encoding/inconsistent_character_encoding
+Foreign Character Domain,http://www.søkbar.no
+Encoded hashbang,/encoding/url/encoded_hashbang%23abc
+Title With Whitespace,/titles/title_with_whitespace
+Title Empty,/titles/empty_title
+Title Missing,/titles/missing_title
+Title Duplicates,/titles/duplicate_title
+Title Duplicates,/titles/duplicate_title/foo
+Title Duplicates,/titles/duplicate_title/foo
+Title Duplicates,/titles/duplicate_title/bar
+Title Duplicates,/titles/duplicate_title/baz
+Noindex and Title Duplicates,/titles/duplicate_title_and_noindex/bat
+Noindex and Title Duplicates,/titles/duplicate_title_and_noindex/bak
+Title Too Long,/titles/title_over_max
+Title Warning,/titles/title_warning
+Page Title Length,/titles/page_title_length_n
+Page Title Width,/titles/page_title_width_n
+Page Title Leading/Trailing Spaces,/titles/page_title_leading_trailing_spaces
+Double  Triple   Quadruple    Spaces,/titles/double_triple_quadruple_spaces
+SVG Title,/titles/svg_title
+"
+        Forced Double  Triple   Quadruple    Spaces
+      ",/titles/forced_double_triple_quadruple_spaces
+Robots.txt Disallowed,/robots_protocol/robots_excluded
+DeepCrawl Excluded,/robots_protocol/deepcrawl_excluded
+Robots.txt Disallowed With Duplicate Description,/robots_protocol/robots_excluded_duplicate_description
+Robots.txt Disallowed With Meta Noindex,/robots_protocol/robots_excluded_meta_noindex
+Robots.txt Disallowed For Deepcrawl User Agent,/robots_protocol/deepcrawl_ua_disallow/foo
+User Excluded,/robots_protocol/user_excluded
+Meta Nofollow,/robots_protocol/meta_nofollow
+Meta Noarchive,/robots_protocol/meta_noarchive
+Meta Noindex,/robots_protocol/meta_noindex
+Meta Noindex Uppercase,/robots_protocol/meta_noindex_uppercase
+X-robots Noindex,/robots_protocol/x_robots_tag_noindex
+Page allowed with robots.txt,/robots_protocol/page_allowed_with_robots
+Robots Noindexed,/robots_protocol/robots_noindexed
+Robots Noindex Conflict,/robots_protocol/robots_noindex_conflict
+Robots.txt Disallowed Blank Line,/robots_protocol/robots_excluded_blank_line
+Robots Noindexed and Robots Disallowed,/robots_protocol/robots_noindexed_and_robots_disallowed
+Allowed Same Length,/robots_protocol/allowed_same_length
+Allowed Shorter,/robots_protocol/allowed_shorter
+Allowed Longer,/robots_protocol/allowed_longer
+Meta robots and X-Robots conflict,/robots_protocol/meta_robots_and_x_robots_conflict
+Robots Meta None,/robots_protocol/robots_meta_none
+Robots Meta Noodp + Noydir + None + Noindex,/robots_protocol/robots_meta_noodp_noydir_none_noindex
+Robots Meta Multiple Tags: noindex + nofollow,/robots_protocol/robots_meta_multiple_tags_noindex_nofollow
+X-Robots Multiple Directives,/robots_protocol/x_robots_multiple_directives
+Multiple Robots directives meta tag,/robots_protocol/multiple_robots_directive_meta_tag
+Multiple Googlebot directives meta tag,/robots_protocol/multiple_googlebot_directive_meta_tag
+Non-200 with Noindex,/robots_protocol/non_200_with_noindex
+Canonicalised with Noindex,/robots_protocol/canonicalised_with_noindex
+Canonicalised with Non-200,/robots_protocol/canonicalised_with_non_200
+Redirect 301,/redirects/redirect_1
+Redirect Double 301,/redirects/redirect_2
+Redirect 302,/redirects/redirect_3_302
+Redirect 307,/redirects/redirect_4_307
+Disallowed Redirect,/redirects/disallowed_redirect
+Redirect Chain Allowed,/redirects/redirect_chain_allowed
+Disallowed Redirect Target,/redirects/disallowed_redirect_target_redirect
+Infinite Redirect,/redirects/infinite_redirect
+Infinite Redirect (2 step,/redirects/two_step_redirect_loop_1
+External Redirect,/redirects/external_redirect
+Redirect 303 To 404,/redirects/invalid_redirect
+Meta Redirect,/redirects/meta_redirect_1
+Meta Redirect - Example 2,/redirects/meta_redirect_2
+Meta Redirect - Example 3,/redirects/meta_redirect_3
+Infinite Meta Redirect Loop,/redirects/infinite_meta_redirect
+External Meta Redirect,/redirects/external_meta_redirect
+Invalid Meta Redirect,/redirects/invalid_meta_redirect
+Header Refresh Redirect,/redirects/header_refresh_redirect
+Redirect To 404 Http Status,/redirects/redirect_to_404
+URL Redirect Chains,/redirects/url_redirect_chains
+Redirect Content,/redirects/redirect_content
+External Redirect Chain 1,/redirects/external_redirect_chain1
+Redirect 300,/redirects/redirect_300
+Redirect 303,/redirects/redirect_303
+Redirect 304,/redirects/redirect_304
+Redirect 305,/redirects/redirect_305
+Redirect 306,/redirects/redirect_306
+Redirect 308,/redirects/redirect_308
+javascript:window.location internal,/javascript/window-location-internal
+javascript:window.location external,/javascript/window-location-external
+javascript:window.location function absolute,/javascript/window-location-function-absolute
+javascript:window.location function relative,/javascript/window-location-function-relative
+Broken Links Internal,/links/broken_links_internal
+Broken Links External,/links/broken_links_external
+Max External Links,/links/max_external_links
+Page with External Links,/links/page_with_external_links
+Nofollowed Page,/links/nofollowed_page
+Nofollow Link With Nofollowed Backlinks,/links/nofollow_link_with_nofollowed_backlinks
+Relative Link,/links/relative_link/a/b
+Relative Link With Base,/links/relative_link_with_base/a/b
+Image Links,/links/image_links
+Non Default Language,/links/non_default_language
+Meta Refresh,/links/meta_refresh
+Header Refresh,/links/header_refresh
+External Links to Disallowed URLs,/links/external_links_to_disallwed_urls
+Non Standard Links,/links/non_standard_links
+Repeated external links,/links/repeated_external_links
+Repeated internal links,/links/repeated_internal_links
+Links with Quote Variations,/links/links_with_quote_variations
+Whitespace in Links,/links/whitespace_in_links
+Comma Separated Attributes,/links/comma_separated_attributes
+Nofollow & Followed Link,/links/nofollow_and_follow_link
+Relative Protocol Page,//crawler-test.com/links/relative_protocol_page
+javascript:window.location onchange,/javascript/window-location-onchange
+javascript:window.open,/javascript/window-open
+javascript:onmousedown,/javascript/onmousedown
+javascript:concatenated link,/javascript/concatenatedlink
+javascript:data-href link,/javascript/data-hreflink
+javascript:push-state,/javascript/push_state
+Double Slash,/urls/double_slash//one
+Double Slash 2,/urls/double_slash////two
+Double Slash 3,/urls/double_slash//////three
+Double Slash 4,/urls/double_slash//////four//
+Parameter_1_1,/urls/parameter_1_1?parameter_1=foo
+Parameter_1_2,/urls/parameter_1_2?parameter_x=x&parameter_1=foo
+Parameter_1_3,/urls/parameter_1_3?parameter_x=x&parameter_1=foo&parameter_y=y
+Parameter_2_1,/urls/parameter_2_1?parameter_1=foo
+Parameter_2_2,/urls/parameter_2_2?parameter_x=x&parameter_1=foo
+Parameter_2_3,/urls/parameter_2_3?parameter_x=x&parameter_1=foo&parameter_y=y
+Parameter Same Name Diff Value,/urls/parameter?parameter_1=foo&parameter_1=bar
+Parameter Same Name Same Value,/urls/parameter?parameter_1=foo&parameter_1=foo
+Url With Spaces,/urls/url_with_spaces/URL with spaces
+Url With Trailing Space,/urls/url_with_trailing_space/%20
+Url With Encoded Trailing Space,/urls/url_with_encoded_trailing_space/ 
+Url With Trailing Slash,/urls/duplication_types/
+Url Without Trailing Slash,/urls/duplication_types
+Url With Tracking Parameter,/urls/duplication_types?tracking=yes
+Url Ending With /index.htm,/urls/duplication_types/index.html
+Url With Duplicate Path,/urls/duplication_types/duplication_types/
+Url With Alternative Case,/urls/DUPLICATION_TYPES
+Links to Malformed URLs,/urls/links_to_malformed_urls
+Paginated Pages,/urls/paginated_page
+Unlinked Paginated Pages,/urls/unlinked_paginated_page
+Paginated and Noindex Pages,/urls/paginated_and_noindex_page
+Links to Non-HTML Filetypes,/urls/links_to_non_html_filetypes
+Pages with HREFLANG,/urls/pages_with_hreflang
+Page with HREFLANG Header OK,/urls/page_with_hreflang_header_ok
+Page with HREFLANG Header Not OK,/urls/page_with_hreflang_header_not_ok
+Duplicate Page,/urls/duplicate_page
+Duplicate Page,/urls/duplicate_page/foo
+Duplicate Page,/urls/duplicate_page/bar
+Duplicate Page,/urls/duplicate_page/baz
+Url With Session Id,/urls/with_session_id?sessionID=l3JPp3bQhrmzOy5KVZIO
+Page URL Length,/urls/page_url_length_n
+URL With Fragment,/urls/url_with_fragment#fragment
+URL with encoded reserved character,/url/URL%2c_with_encoded_reserved_character
+URL with encoded un-reserved character,/url/URL_with_encoded_unreserved_%63haracter
+URL with encoded space,/url/with_encoded_space 
+URL with encoded ó character,/url/with_encoded_ó_character
+Directory index - blank,/urls/directory_index/
+Directory index - index.htm,/urls/directory_index/index.htm
+Directory index - default.htm,/urls/directory_index/default.htm
+Directory index - index.html,/urls/directory_index/index.html
+Directory index - index,/urls/directory_index/index
+Infinite URLs,/infinite/
+Relative Base,/relative_base_source
+Four Paths,/one/two/three/four
+Five Paths,/one/two/three/four/five
+Six Paths,/one/two/three/four/five/six
+Seven Paths,/one/two/three/four/five/six/seven
+Double Path,/path/1/path/2
+Triple Path,/path/1/path/2/path/3
+Multiple Slashes - 200 to 404,/urls/multiple_slashes///200_404
+Multiple Slashes - 404 to 200,/urls/multiple_slashes///404_200
+Double Slash Disallowed Start,https://crawler-test.com//urls/double_slash/disallowed_start
+Double Slash Disallowed Middle,/urls/double_slash//disallowed_middle
+Double Slash Disallowed End,/urls/double_slash/disallowed_end//
+Parameter on Hostname Root,?parameter-on-hostname-root=parameter-value
+Parameter Removal,?removed_parameter=1&retained_parameter=1
+URL With Colon,/url/url_with:colon
+Relative URL With Colon,relativeurl:withcolon
+Canonical Tag With Relative Root,/canonical_tags/relative_root_canonical_tag
+Canonical Tag With Relative Url,/canonical_tags/relative_canonical_tag
+Canonical Tag,/canonical_tags/canonical_tag
+Canonical Tag Uppercase,/canonical_tags/canonical_tag_uppercase
+Canonical Tag 2,/canonical_tags/canonical_tag/2
+Canonical Tag 3,/canonical_tags/canonical_tag/3
+Canonical Tag 4,/canonical_tags/canonical_tag/4
+Canonical Tag 5,/canonical_tags/canonical_tag/5
+Canonical Tag 6,/canonical_tags/canonical_tag/6
+Canonical Tag 7,/canonical_tags/canonical_tag/7
+Canonical Tag 8,/canonical_tags/canonical_tag/8
+Canonical Tag 9,/canonical_tags/canonical_tag/9
+Canonical Tag 10,/canonical_tags/canonical_tag/10
+Canonical Tag 11,/canonical_tags/canonical_tag/11
+Canonical Tag 12,/canonical_tags/canonical_tag/12
+Canonical Tag 13,/canonical_tags/canonical_tag/13
+Canonical Tag 14,/canonical_tags/canonical_tag/14
+Canonical Tag 15,/canonical_tags/canonical_tag/15
+Canonical Tag 16,/canonical_tags/canonical_tag/16
+Canonical Tag 17,/canonical_tags/canonical_tag/17
+Canonical Tag 18,/canonical_tags/canonical_tag/18
+Canonical Tag 19,/canonical_tags/canonical_tag/19
+Canonical Tag 20,/canonical_tags/canonical_tag/20
+Canonical Tag 21,/canonical_tags/canonical_tag/21
+Canonical Tag 22,/canonical_tags/canonical_tag/22
+Canonical Tag 23,/canonical_tags/canonical_tag/23
+Canonical Tag 24,/canonical_tags/canonical_tag/24
+Canonical Tag 25,/canonical_tags/canonical_tag/25
+Canonical Tag Like Page,/canonical_tags/canonical_tag_like_page
+Canonical And Duplicate Description,/canonical_tags/canonical_duplicate_description
+Canonical Tag In Header,/canonical_tags/canonical_tag_in_header
+Canonical Tag Outside Head,/canonical_tags/canonical_tag_outside_head
+Canonical Tag HTML/Header Conflict,/canonical_tags/canonical_tag_html_header_conflict
+Canonical Tag HTML Conflict,/canonical_tags/canonical_tag_html_conflict
+Page With External Canonical,/canonical_tags/page_with_external_canonical
+Page Without Canonical Tag,/canonical_tags/page_without_canonical_tag
+Unlinked_canonical,/canonical_tags/unlinked_canonical
+Canonical Tag/OG:URL Conflict,/canonical_tags/canonical_tag_og_url_conflict
+Canonical Tag with Self Reference,/canonical_tags/canonical_tag_with_self_reference
+Canonicalised to Disallowed URL,/canonical_tags/canonicalised_to_disallowed_url
+Unlinked Canonical URL in Header,/canonical_tags/unlinked_canonical_header
+Non-Head Canonical,/canonical_tags/non_head_canonical
+Non-Head Canonical Link,/canonical_tags/non_head_canonical_link
+Non-Head Canonical Link 2,/canonical_tags/non_head_canonical_link_2
+Port :80 = http with no port,/canonical_tags/canonical_port_80
+Port :443 = http with no port,/canonical_tags/canonical_port_443
+Port :8080 = http with no port,/canonical_tags/canonical_port_8080
+URL-encoded v non-encoded not canonicalised,/canonical_tags/canonical_url_encoded_vs_non_encoded/café
+URL-encoded v non-encoded not canonicalised icon,/canonical_tags/canonical_url_encoded_vs_non_encoded/🍺/ist
+Parameter key is case sensitive,/canonical_tags/canonical_prameter_key_is_case_sensitive?key=value
+Parameter value is case sensitive,/canonical_tags/canonical_prameter_value_is_case_sensitive?key=value
+URL Fragments are not canonicalised,/canonical_tags/canonical_url_fragments#url-fragment
+Different parameter orders are canonicalised,/canonical_tags/canonical_different_parameter_order?key2=value2&key=value
+Hostname is case insensitive,/canonical_tags/canonical_hostname_case_insensitive
+Protocol is case insensitive,/canonical_tags/canonical_protocol_case_insensitive
+Path is case sensitive,/canonical_tags/canonical_path_is_case_sensitive
+URI = / is the same as naked domain,/canonical_tags/canonical_url_with_slash
+Trailing dot is the same as naked domain (extremely uncommon),/canonical_tags/canonical_trailing_dot
+100 HTTP Status,/status_codes/status_100
+101 HTTP Status,/status_codes/status_101
+102 HTTP Status,/status_codes/status_102
+200 HTTP Status,/status_codes/status_200
+201 HTTP Status,/status_codes/status_201
+202 HTTP Status,/status_codes/status_202
+203 HTTP Status,/status_codes/status_203
+204 HTTP Status,/status_codes/status_204
+205 HTTP Status,/status_codes/status_205
+206 HTTP Status,/status_codes/status_206
+207 HTTP Status,/status_codes/status_207
+226 HTTP Status,/status_codes/status_226
+400 HTTP Status,/status_codes/status_400
+401 HTTP Status,/status_codes/status_401
+402 HTTP Status,/status_codes/status_402
+403 HTTP Status,/status_codes/status_403
+404 HTTP Status,/status_codes/status_404
+405 HTTP Status,/status_codes/status_405
+406 HTTP Status,/status_codes/status_406
+407 HTTP Status,/status_codes/status_407
+408 HTTP Status,/status_codes/status_408
+409 HTTP Status,/status_codes/status_409
+410 HTTP Status,/status_codes/status_410
+411 HTTP Status,/status_codes/status_411
+412 HTTP Status,/status_codes/status_412
+413 HTTP Status,/status_codes/status_413
+414 HTTP Status,/status_codes/status_414
+415 HTTP Status,/status_codes/status_415
+416 HTTP Status,/status_codes/status_416
+417 HTTP Status,/status_codes/status_417
+418 HTTP Status,/status_codes/status_418
+419 HTTP Status,/status_codes/status_419
+420 HTTP Status,/status_codes/status_420
+421 HTTP Status,/status_codes/status_421
+422 HTTP Status,/status_codes/status_422
+423 HTTP Status,/status_codes/status_423
+424 HTTP Status,/status_codes/status_424
+426 HTTP Status,/status_codes/status_426
+428 HTTP Status,/status_codes/status_428
+429 HTTP Status,/status_codes/status_429
+431 HTTP Status,/status_codes/status_431
+440 HTTP Status,/status_codes/status_440
+444 HTTP Status,/status_codes/status_444
+449 HTTP Status,/status_codes/status_449
+450 HTTP Status,/status_codes/status_450
+451 HTTP Status,/status_codes/status_451
+494 HTTP Status,/status_codes/status_494
+495 HTTP Status,/status_codes/status_495
+496 HTTP Status,/status_codes/status_496
+497 HTTP Status,/status_codes/status_497
+498 HTTP Status,/status_codes/status_498
+499 HTTP Status,/status_codes/status_499
+500 HTTP Status,/status_codes/status_500
+501 HTTP Status,/status_codes/status_501
+502 HTTP Status,/status_codes/status_502
+503 HTTP Status,/status_codes/status_503
+504 HTTP Status,/status_codes/status_504
+505 HTTP Status,/status_codes/status_505
+506 HTTP Status,/status_codes/status_506
+507 HTTP Status,/status_codes/status_507
+508 HTTP Status,/status_codes/status_508
+509 HTTP Status,/status_codes/status_509
+510 HTTP Status,/status_codes/status_510
+511 HTTP Status,/status_codes/status_511
+520 HTTP Status,/status_codes/status_520
+598 HTTP Status,/status_codes/status_598
+599 HTTP Status,/status_codes/status_599
+Open Graph Tags,/social_tags/open_graph_tags
+Twitter Card Page 1,/social_tags/twitter_card_page/1
+Twitter Card Page 2,/social_tags/twitter_card_page/2
+"OG Description, Title, Image, No Twitter",/social_tags/og_no_twitter
+Max Twitter Card Description Length,/social_tags/max_twitter_card_description_length
+Custom Text,/content/custom_text
+Error Page,/content/error_page
+Above Min Content Volume,/content/above_min_content_volume
+No H1s,/content/no_h1
+H1 in img,/content/h1_in_img
+Mult H1s,/content/mult_h1
+Page HTML Size (n KB),/content/page_html_size_n
+Page Content Size (n KB),/content/page_content_size_n
+Meta content type - text/html,/content/meta_content_type_text_html
+Meta content type - malformed,/content/meta_content_type_malformed
+Word Count - 100 Words,/content/word_count_100_words
+Word Count - Number,/content/word_count_number
+Word Count - Hyphenated,/content/word_count_hyphenated
+Word Count - Symbols,/content/word_count_symbols
+Word Count - Script,/content/word_count_script
+Custom extraction text,/content/custom_extraction_text
+Multiple titles and descriptions,/content/multiple_titles_and_descriptions
+"Title with newline, quote, doublequote and comma characters",/content/title_with_newline_quote_doublequote_and_comma_characters
+Header Content Type Malformed,/content/header_content_type_malformed
+javascript:window.location onclick,/javascript/window-location-onclick
+javascript:onclick reveals new element with programmatically added onclick event,/javascript/onclick-reveals-element-programmatically-added-onclick
+javascript:make AJAX call and return data in page,/javascript/ajax-return-data
+javascript:dynamically inserted text,/javascript/dynamically-inserted-text
+javascript:dynamically inserted text meta data,/javascript/dynamically-inserted-text-meta-data
+javascript:dynamically inserted nofollow,/javascript/dynamically-inserted-nofollow
+javascript:on load inserted title,/javascript/onload-added-title
+javascript:on load inserted canonical URL,/javascript/onload-inserted-canonical
+javascript:dialog window,/javascript/dialog_window
+javascript:alert box,/javascript/alert_box
+javascript:ad script,/javascript/ad_script
+javascript:analytics script,/javascript/analytics_script
+javascript:Rendering test 1,/javascript/renderer_timeout/1
+javascript:Rendering test 2,/javascript/renderer_timeout/2
+javascript:Rendering test 3,/javascript/renderer_timeout/3
+javascript:Rendering test 4,/javascript/renderer_timeout/4
+javascript:Rendering test 5,/javascript/renderer_timeout/5
+Non-secure Form Fields - Text,/content/non_secure_form_fields_text
+Non-secure Form Fields - Email,/content/non_secure_form_fields_email
+Non-secure Form Fields - Search,/content/non_secure_form_fields_search
+Non-secure Form Fields - Number,/content/non_secure_form_fields_number
+Non-secure Form Fields - Tel,/content/non_secure_form_fields_tel
+Non-secure Form Fields - URL,/content/non_secure_form_fields_url
+Non-secure Form Fields - Textarea,/content/non_secure_form_fields_textarea
+Non-secure Form Fields - Password and Credit Cards,/content/non_secure_form_fields_password_and_cc
+Crawler User Agent,/other/crawler_user_agent
+Crawler IP Address,/other/crawler_ip_address
+Conflicting Language Tags,/other/conflicting_language_tags
+Page Load Time,/other/page_load_time_n
+Crawler Request Headers,/other/crawler_request_headers
+Expiring Page for Removed Test,/other/expiring_page_for_removed_test/1678877488.6242247
+Duplicated Body Content 1,/other/duplicated_body_content_1
+Duplicated Body Content 2,/other/duplicated_body_content_2
+String Width in Pixels,/other/string_width/512/string
+Script Tag Contents,/other/script_tag_contents
+NoODP and NoYDir Tags,/other/noodp_noydir_tags
+Page with HSTS Headers,/other/page_with_hsts_headers
+Subdomain,https://subdomain.crawler-test.com
+Invalid Subdomain,https://invalid.crawler-test.com
+Crawler Test HTTP/Non-WWW,http://crawler-test.com/
+Crawler Test HTTP,http://crawler-test.com
+Crawler Test HTTPS,https://crawler-test.com
+Page linking from web,/other/in_web_linking
+Page linked from web,/other/in_web_linked
+Broken HTML - Typo inside head,/other/typo_in_head
+Broken HTML - Unfinished tag in head,/other/unfinished_tag_in_head
+Broken HTML - Non head tag in head,/other/non_head_tag_in_head
+Broken HTML - Link tag in body,/other/link_tag_in_body
+Basic Auth,/other/basic_auth

@@ -14,6 +14,7 @@ class Main():
         self.url = url
         self.count = 0
         self.time = 0
+        self.file_name = ''
         self.time_sleep = 5  # задержка, чтобы пользователь успел ввести капчу, если она необходима
         self.csv_file = 'data.csv'
         self.path_to_driver = 'C:/Users/User/Documents/тесты работа/Карта сайта/chromedriver.exe'  # не заубдьте
@@ -40,11 +41,20 @@ class Main():
         except AttributeError:
             print("Ошибка! Скорее всего не успели ввести капчу")
             return
-        for link in links:
-            string = link.string
-            href = link.get('href')
-            if string and href:
-                self.count += 1
+        if self.url[:5] == 'https':
+            self.file_name = (self.url[8:])
+        else:
+            self.file_name = (self.url[7:])
+        with open(f'{self.file_name}.csv', mode='w', encoding='utf-8') as file:
+            writer_file = csv.writer(file)
+            writer_file.writerow(['Тело ссылки', 'Ссылка'])
+            for link in links:
+                string = link.string
+                href = link.get('href')
+                if string and href:
+                    self.count += 1
+                    writer_file.writerow([string, href])
+
                 list_links.append((string, href))
         self.time = time.time() - start - self.time_sleep
         self.driver.close()
@@ -56,7 +66,7 @@ class Main():
         with open(self.csv_file, mode='a', encoding='utf-8') as file:
             self.get_link()
             writer = csv.writer(file)
-            writer.writerow([self.url, self.time, self.count, self.csv_file])
+            writer.writerow([self.url, self.time, self.count, self.file_name])
 
     @classmethod
     def run_write_csv(cls, arg):  # Функция создает экзмепляр класса и вызывает метод для записи в csv, необходима
@@ -83,7 +93,7 @@ class Main():
 
 
 if __name__ == '__main__':
-    web = iter(['http://crawler-test.com/', 'http://google.com/', 'https://vk.com', 'https://yandex.ru', 'https'
+    web = iter(['http://crawler-test.com', 'http://google.com', 'https://vk.com', 'https://dzen.ru', 'https'
                                                                                                '://stackoverflow.com'])
     with open('data.csv', mode='w', encoding='utf-8') as file:
         writer = csv.writer(file)

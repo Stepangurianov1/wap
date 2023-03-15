@@ -1,6 +1,6 @@
 URL сайта,Время обработки,Количество наденных ссылок,Имя файла с результатом
-http://crawler-test.com/,2.2918052673339844,414,data.csv
-https://vk.com,2.634887933731079,18,data.csv
-http://google.com/,1.3692703247070312,15,data.csv
-https://stackoverflow.com,2.4344234466552734,68,data.csv
-https://yandex.ru,3.0398061275482178,40,data.csv
+https://vk.com,2.0505542755126953,18,vk.com
+http://crawler-test.com,2.2330663204193115,414,crawler-test.com
+http://google.com,1.338456630706787,15,google.com
+https://dzen.ru,3.0309646129608154,43,dzen.ru
+https://stackoverflow.com,1.96478271484375,68,stackoverflow.com
